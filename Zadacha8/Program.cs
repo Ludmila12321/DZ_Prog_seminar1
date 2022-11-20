@@ -7,11 +7,11 @@ int n = Convert.ToInt32(Console.ReadLine());
 int i = 2;
 if (n > 1)
 {
-    Console.WriteLine($"В диапазон от 1 до {n} входят следующие четные числа:");
+   Console.WriteLine($"В диапазон от 1 до {n} входят следующие четные числа:");
     while (i <= n - 2)
     {
-        Console.Write($"{i}, ");
-        i = i + 2;
+    Console.Write($"{i}, ");
+    i = i + 2;
     }
     Console.Write($"{i}");
 }
